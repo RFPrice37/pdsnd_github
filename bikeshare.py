@@ -46,7 +46,7 @@ Please enter 'chicago', 'new york city' or 'washington
             print("Your chosen day is {}!".format(day))
             break
         else:
-            print("{} is not a valid day".format(day))
+            print("{} is not a valid day Enter 'all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'".format(day))
 
     return city, month, day
 
