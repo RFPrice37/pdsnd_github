@@ -24,8 +24,8 @@ def get_filters():
             print("Your chosen city is {}!".format(city))
             break
         else:
-            print("{} is not a valid city".format(city))
-
+            print("{} is not a not one of the cities offered.  Please enter 'chicago', 'new york city' or 'washington".format(city))
+Please enter 'chicago', 'new york city' or 'washington
     # get user input for month (all, january, february, ... , june)
     months = ['all', 'january', 'february', 'march' ,'april', 'may', 'june']
     while True:
