@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyse.
 
     Returns:
         (str) city - name of the city to analyze
@@ -24,8 +24,8 @@ def get_filters():
             print("Your chosen city is {}!".format(city))
             break
         else:
-            print("{} is not a valid city".format(city))
-
+            print("{} is not a not one of the cities offered.  Please enter 'chicago', 'new york city' or 'washington".format(city))
+Please enter 'chicago', 'new york city' or 'washington
     # get user input for month (all, january, february, ... , june)
     months = ['all', 'january', 'february', 'march' ,'april', 'may', 'june']
     while True:
@@ -46,7 +46,7 @@ def get_filters():
             print("Your chosen day is {}!".format(day))
             break
         else:
-            print("{} is not a valid day".format(day))
+            print("{} is not a valid day Enter 'all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'".format(day))
 
     return city, month, day
 
